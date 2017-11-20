@@ -37,7 +37,7 @@ Future Plans
 * docker-compose.yml and kubernetes manifest editor
 * File browsing tree
 * Code syntax highlighting
-* One click container exec -it
+* One click container `exec -it`
 * Display of API and GraphQL endpoints
 * Display of local development and external networks and their entry points
 * Integration with security and resource monitoring (Prometheus, Splunk)
