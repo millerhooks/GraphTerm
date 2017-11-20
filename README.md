@@ -40,7 +40,7 @@ Future Plans
 * One click container `exec -it`
 * Display of API and GraphQL endpoints
 * Display of local development and external networks and their entry points
-* Integration with security and resource monitoring (Prometheus, Splunk)
+* Integration with security and resource monitoring (Prometheus, Splunk, ELK/EFK)
 * Integration with CI and deployment health checks
 
 Inspirational Projects
