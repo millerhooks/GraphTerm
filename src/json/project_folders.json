@@ -1,0 +1,84 @@
+{
+  "project_root": "/home/miller/DockerLessons",
+  "sections": {
+    "1": {
+      "name": "Docker Basics",
+      "path": "1-Docker_Basics",
+      "complete": false,
+      "lessons": {
+        "1": {
+          "name": "What Is Docker",
+          "path": "1-What_Is_Docker",
+          "complete": false,
+          "containers": [],
+          "urls": {
+            "dev": "",
+            "ssl": ""
+          }
+        },
+        "2": {
+          "name": "Docker Installation",
+          "path": "2-Docker_Installation",
+          "complete": false,
+          "containers": [],
+          "urls": {
+            "dev": "",
+            "ssl": ""
+          }
+        },
+        "3": {
+          "name": "Serve a Rich Web Application with Docker",
+          "path": "3-Serve_a_Rich_Web_Application_with_Docker",
+          "complete": false,
+          "containers": [
+            "nginx"
+          ],
+          "urls": {
+            "dev": "http://localhost:8888",
+            "ssl": ""
+          }
+        },
+        "4": {
+          "name": "The Dockerfile",
+          "path": "4-The_Dockerfile",
+          "complete": false,
+          "containers": [
+            "nginx"
+          ],
+          "urls": {
+            "dev": "http://localhost:8888",
+            "ssl": "https://localhost:8888"
+          }
+        },
+        "5": {
+          "name": "The_Container Registry",
+          "path": "5-The_Container_Registry",
+          "complete": false,
+          "containers": [
+            "mongo",
+            "nginx",
+            "chat"
+          ],
+          "urls": {
+            "dev": "http://localhost:8888",
+            "ssl": "https://localhost:8888"
+          }
+        },
+        "6": {
+          "name": "ContainerOrchestration",
+          "path": "6-Container_Orchestration",
+          "complete": false,
+          "containers": [
+            "mongo",
+            "nginx",
+            "chat"
+          ],
+          "urls": {
+            "dev": "http://localhost:8888",
+            "ssl": "https://localhost:8888"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+/* LIST OF FURTHER IMPROVEMENTS */
+/*
+currently working on :
+calculation draft for keyframes steps
+
+$scan-moving-duration: 3s;
+$scan-moving-delay: 7s;
+
+total time = 10s (duration + delay)
+keyframes :
+    0%: wait
+    15%: start moving
+    85%: end moving & start waiting
+    100% : wait
+
+(the rest later)
+
+*/
+/* REGULAR SCANLINES SETTINGS */
+/* MOVING SCANLINE SETTINGS */
+/* MIXINS */
+/* CSS .scanlines CLASS */
+.scanlines {
+  position: relative;
+  overflow: hidden;
+}
+.scanlines:before, .scanlines:after {
+  display: block;
+  pointer-events: none;
+  content: '';
+  position: absolute;
+}
+.scanlines:before {
+  width: 100%;
+  height: 2px;
+  z-index: 2147483649;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0.75;
+  -webkit-animation: scanline 6s linear infinite;
+          animation: scanline 6s linear infinite;
+}
+.scanlines:after {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2147483648;
+  background: -webkit-linear-gradient(top, transparent 50%, rgba(0, 0, 0, 0.3) 51%);
+  background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.3) 51%);
+  background-size: 100% 4px;
+  -webkit-animation: scanlines 1s steps(60) infinite;
+          animation: scanlines 1s steps(60) infinite;
+}
+
+/* ANIMATE UNIQUE SCANLINE */
+@-webkit-keyframes scanline {
+  0% {
+    -webkit-transform: translate3d(0, 200000%, 0);
+            transform: translate3d(0, 200000%, 0);
+  }
+}
+@keyframes scanline {
+  0% {
+    -webkit-transform: translate3d(0, 200000%, 0);
+            transform: translate3d(0, 200000%, 0);
+  }
+}
+@-webkit-keyframes scanlines {
+  0% {
+    background-position: 0 50%;
+  }
+}
+@keyframes scanlines {
+  0% {
+    background-position: 0 50%;
+  }
+}
+/* PRESENTATION STUFF */
+a {
+  display: block;
+  padding: 1em;
+  margin: 0 auto;
+  width: 80%;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+a#togglescanlines {
+  position: absolute;
+  width: 182px;
+  top: 300px;
+  right: 58px;
+  border-width: 10px;
+  background: rgba(0, 0, 0, 0.4);
+}
+a:hover {
+  color: #fff;
+}
+
+nav {
+  float: right;
+  width: 350px;
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+ul.scanlines {
+  position: absolute;
+}
+ul iframe,
+ul video,
+ul .jpg {
+  width: calc(100vw - 350px);
+  height: 95vh;
+  border: none;
+}
+ul li {
+  /*        display: none;
+  
+          &:target {
+              display: inline-block;
+          }*/
+}
+
+.jpg {
+  background: url("http://images.eurogamer.net/articles//a/6/4/8/8/1/7/PC_003.jpg.jpg.jpg") no-repeat;
+  background-size: cover;
+}
+
+body {
+  position: relative;
+  background: #1b1b1b;
+  color: #c8c8c8;
+  text-shadow: 2px 2px 2px #333;
+}

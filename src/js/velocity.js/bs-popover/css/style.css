@@ -1,0 +1,26 @@
+body {
+  color: #5a5a5a;
+}
+
+.container {
+  padding-bottom: 140px;
+}
+
+.popover-example {
+  margin: 0 0 10px;
+  list-style: none;
+}
+
+.popover-example li {
+  display: inline-block;
+  margin: 4px;
+  padding: 0px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.modExample .btn {
+  margin: 4px 8px 4px 0;
+}

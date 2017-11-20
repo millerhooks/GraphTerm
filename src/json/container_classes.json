@@ -1,0 +1,27 @@
+{
+  "categories" : {
+    "backend" : {"color": "#FF0000", "icon": "", "pattern":""},
+    "frontend" : {"color": "#00FF00", "icon": "", "pattern":""},
+    "service" : {"color": "#0000FF", "icon": "", "pattern":""},
+    "static" : {"color": "#FFFFFF", "icon": "", "pattern":""},
+    "media" : {"color": "#000000", "icon": "", "pattern":""},
+    "storage" : {"color": "#FFFF00", "icon": "", "pattern":""}
+  },
+  "types": {
+    "sql": {"color": "goldenrod", "icon": "", "pattern":""},
+    "nonrel": {"color": "gunmetal", "icon": "", "pattern":""},
+    "http_server" : {"color": "purple", "icon": "", "pattern":""},
+    "cache" : {"color": "orange", "icon": "", "pattern":""},
+    "python": {"color": "tan", "icon": "", "pattern":""},
+    "ruby": {"color": "blood", "icon": "", "pattern":""},
+    "javascript": {"color": "cerulian", "icon": "", "pattern":""},
+    "proxy": {"color": "pink", "icon": "", "pattern":""},
+    "dns": {"color": "#B4D455", "icon": "", "pattern":""},
+    "storage": {"color": "navy", "icon": "", "pattern":""}
+  },
+  "images" : {
+    "mongo": {"types" : ["nonrel"], "categories": ["backend", "storage"]},
+    "nginx": {"types" : ["http_server"], "categories": ["frontend"]},
+    "chat": {"types" : ["javascript"], "categories":["frontend", "backend", "service"]}
+  }
+}

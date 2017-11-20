@@ -1,0 +1,260 @@
+:root {
+    --main-background: rgba(29, 32, 41, 0.9);
+    --main-text: #fff;
+    --main-terminal-background: #6e3e5b;
+
+    --menu-background: rgba(28, 31, 46, 1);
+    --menu-header-background: rgba(28, 31, 46, 1);
+    --menu-icons: #fff;
+    --menu-popover-background: rgba(4, 7, 11, 0.39);
+
+    --color_1_primary: rgba(69, 222, 236, 1);
+    --color_1_shade: rgba(90, 187, 205, 1);
+    --color_1_third: rgba(25, 80, 85, 1);
+    --color_1_text: rgba(227, 236, 233, 1);
+    --color_1_text-outline: rgba(29, 35, 51, 1);
+    --color_1_background: rgba(29, 32, 41, 0.9);
+
+    --color_2_primary: rgba(248, 46, 227, 1);
+    --color_2_shade: rgba(111, 7, 141, 1);
+    --color_2_third: rgba(111, 7, 141, 1);
+    --color_2_text: rgba(189, 168, 202, 1);
+    --color_2_text-outline: rgba(21, 1, 26, 1);
+    --color_2_background: rgba(29, 32, 41, 0.9);
+
+    --color_3_primary: rgba(69, 222, 236, 0.57);
+    --color_3_shade: rgba(90, 187, 205, 1);
+    --color_3_third: rgba(69, 222, 236, 1);
+    --color_3_text: rgba(69, 222, 236, 1);
+    --color_3_text-outline: rgba(69, 222, 236, 1);
+    --color_3_background: rgba(29, 32, 41, 0.9);
+}
+
+body {
+    font-family: courier-new, courier, monospace;
+    overflow: hidden;
+    background-color: var(--menu-header-background);
+}
+
+/** Start Cytoscape **/
+
+#cy {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    width: 49.2%;
+    border-radius: 4px;
+    border: solid 1px var(--color_1_primary);
+    /*
+    box-shadow: 1px 1px 66px 1px var(--color_1_shade);*/
+    height: 50%;
+    overflow: hidden;
+    padding-top: 20px;[  ]
+    padding-right: 10px;
+    background-color: rgba(7, 24, 25, 0.58);
+    background-blend-mode: screen;
+    opacity: 0.9;
+    z-index: auto;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23043656' fill-opacity='0.24' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+/** End Cytoscape **/
+
+/** Start Terminal **/
+header  {
+    padding-top: 20px;
+}
+
+header h2{
+    color: var(--color_2_text);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 500;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+    padding-top: 0;
+    padding-left: 14px;
+    display: inline;
+}
+
+.terminal{
+    height: 110%;
+}
+
+.terminal .xterm-viewport {
+    background: var(--menu-background);
+    height: 100%;
+    opacity: 0.8;
+}
+
+#terminal-container {
+    width: 100%;
+    height: 1200px;
+    padding: 0;
+    margin-left: -15px;
+}
+
+/* This is the anti aliasing */
+#terminal-container .terminal{
+    display: block;
+    font-size: 15pt;
+    letter-spacing: 0.15em;
+    white-space: pre-wrap;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    height: 100%;
+}
+
+.xterm.fullscreen {
+    transition: all 1s ease-in-out;
+    background-color: var(--menu-header-background);
+    height: 100%;
+    background-blend-mode: screen;
+}
+
+.terminal .xterm-rows {
+    position: absolute;
+    left: 12px;
+    top: 25px;
+    right: 0;
+    bottom: 0px;
+    width: 104%;
+    height: 120%;
+    fill-opacity: 0.8;
+    text-shadow: black 0px 0px 10px;
+    font-size: 11pt;
+}
+
+/** Start Terinal **/
+
+/** Start UI **/
+.site-header {
+    height: 35px;
+    padding: 0px 15px 0 0;
+    transition: all 2s ease-in-out;
+    background: var(--color_2_shade);
+    border-bottom: solid 1px var(--color_1_primary);
+    box-shadow: 3px 0px 54px var(--menu-background);
+}
+
+.site-header .site-header-content {
+    padding: 0px 0;
+
+}
+
+.control-panel .control-panel-container {
+    background: var(--menu-background);
+    border-left: solid 1px var(--color_2_primary);
+    top: -45px;
+    height: 106%;
+}
+
+.two-s-ease-in-out {
+
+  }
+
+.control-panel-container li .control-item-header {
+    display: table-cell;
+    background: var(--menu-background);
+    border-bottom: 1px solid var(--color_2_primary);
+    color: var(--menu-icons);
+}
+
+.control-panel-container li a {
+    color: var(--menu-icons);
+}
+
+.control-panel.open .control-panel-container .control-item-content {
+    background: var(--menu-background);
+}
+
+.form-control {
+    background: var(--color_1_background);
+    border: solid 1px var(--color_2_primary);
+    color: var(--color_2_text);
+
+}
+
+.control-panel .control-panel-container .icon-toggle {
+    background: var(--menu-background);
+    border-bottom: solid 1px var(--color_2_primary);
+
+}
+
+.control-panel.open .control-panel-container li .control-item-header {
+    background: var(--menu-background);
+    border-bottom: solid 1px var(--color_2_primary);
+    color: var(--color_2_text);
+}
+
+
+.control-panel.open .control-panel-container .control-item-content-text, .control-panel.open .control-panel-container .control-item-lists {
+    border: 1px solid var(--color_2_primary);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: var(--menu-background);
+    font-size: .9rem;
+}
+
+.control-panel .page-content {
+    margin-top: 25px;
+    padding-right: 0;
+    margin-right: -150px;
+    background: var(--menu-background);
+}
+
+/** End UI **/
+
+/** Begin iframe **/
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+}
+
+.on-view{
+    display: none;
+}
+
+.file-viewer {
+    display: none;
+}
+
+#fileview {
+    border-color: var(--color_1_primary);
+    box-shadow: 2px 1px 54px var(--color_1_shade);
+    position: relative;
+    top: 0;
+    height:80%;
+    padding-bottom: 0;
+    display: none;
+}
+
+.padding-left-sm {
+    padding-left: 30px;
+}
+
+.fluidMedia {
+    position: relative;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 66.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    height: 100%;
+    overflow: visible;
+    display: none;
+    border-radius: 4px;
+    border: solid 0.1px var(--color_1_primary);
+}
+
+.fluidMedia iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+}
+
+/** End Iframe **/

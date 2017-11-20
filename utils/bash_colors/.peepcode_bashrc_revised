@@ -1,0 +1,49 @@
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+# check the window size after each command and, if necessary, update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# Unbreak broken, non-colored terminal
+export TERM='xterm-color' alias ls='ls -G' alias ll='ls -lG' export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
+export GREP_OPTIONS="--color"
+
+# Erase duplicates in history
+export HISTCONTROL=erasedups
+# Store 10k history entries
+export HISTSIZE=10000
+# Append to the history file when exiting instead of overwriting it
+shopt -s histappend
+
+function minutes_since_last_commit {
+    now=`date +%s`
+    last_commit=`git log --pretty=format:'%at' -1`
+    seconds_since_last_commit=$((now-last_commit))
+    minutes_since_last_commit=$((seconds_since_last_commit/60))
+    echo $minutes_since_last_commit
+}
+
+
+source /usr/local/etc/bash_completion.d/git-completion.bash
+source /usr/local/etc/bash_completion.d/git-prompt.sh
+
+grb_git_prompt() {
+    local g="$(__gitdir)"
+    if [ -n "$g" ]; then
+        local MINUTES_SINCE_LAST_COMMIT=`minutes_since_last_commit`
+        if [ "$MINUTES_SINCE_LAST_COMMIT" -gt 30 ]; then
+            local COLOR=$COLOR_PURPLE
+        elif [ "$MINUTES_SINCE_LAST_COMMIT" -gt 10 ]; then
+            local COLOR=$COLOR_BLUE
+        else
+            local COLOR=$COLOR_GREEN
+        fi
+        local SINCE_LAST_COMMIT=$(minutes_since_last_commit)m
+        # The __git_ps1 function inserts the current git branch where %s is
+    echo -e "$(__git_ps1 '(%s|')${SINCE_LAST_COMMIT}"
+    fi
+}
+
+export PS1='$(grb_git_prompt)$ ' 
+gd() { git diff $* | view -; } 
+gdc() { gd --cached $*; }
+

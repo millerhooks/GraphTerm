@@ -1,0 +1,174 @@
+
+
+sampleSize = 45 A+ Must be full run.
+magick  '#2A7CA4',
+        '#362132',
+        '#D9422D',
+        '#BF7E24',
+        '#7B4A4D',
+        '#2A7CA4',
+        '#362132',
+        '#D9422D');
+
+
+http://www.colourlovers.com/palette/4486290/Marijuana_Packaging
+25 for this one
+
+'#EA9614',
+'#A2EA14',
+'#14EAD6',
+'#3414EA',
+'#EA14BF',
+'#EA9614',
+'#A2EA14',
+'#14EAD6'
+
+http://www.colourlovers.com/palette/4486150/~548
+
+Much more true than the original at 335
+'#121E1A',
+'#745b69',
+'#FD68C2',
+        '#FD68C2',
+'#FFB6E5',
+'#E2DFE8',
+        '#E2DFE8',
+        '#121E1A',
+'#121E1A',
+'#745b69',
+        '#FD68C2',
+        '#FD68C2',
+
+'#121E1A',
+'#53664A',
+'#FD68C2',
+'#FFB6E5',
+'#E2DFE8',
+'#121E1A',
+'#53664A',
+'#FD68C2'
+
+http://www.colourlovers.com/palette/4486148/C_a_n_o_p_y_*
+'#5B7B8A',
+'#A28889',
+'#D1897D',
+'#EC8B7B',
+'#F9A76B',
+'#5B7B8A',
+'#A28889',
+'#D1897D'
+
+http://www.colourlovers.com/palette/4486123/the_great_journey
+
+sampleSize = 80
+
+'#D1FDFF',
+'#66E0FF',
+'#7FDBB8',
+'#69A8B8',
+'#8C8C8C',
+'#D1FDFF',
+'#66E0FF',
+'#7FDBB8'
+
+http://www.colourlovers.com/palette/4486073/and_so_she_protects
+
+sampleSize = 30 and it's fleshlight
+'#433534',
+'#DB403C',
+'#D2BB92',
+'#DDC8A9',
+'#E8DFD6',
+'#433534',
+'#DB403C',
+'#D2BB92'
+
+http://www.colourlovers.com/palette/629637/()
+
+accurate distrobution. second most loved color pal
+195 and 5 decimal places on the detail.
+
+Might not be our style,  but maybe we are missing something.
+
+'#FE4365',
+'#FE4365',
+'#FC9D9A',
+'#F9CDAD',
+'#C8C8A9',
+'#83AF9B',
+'#83AF9B',
+'#83AF9B'
+
+http://www.colourlovers.com/palette/92095/Giant_Goldfish
+
+75 and pretty spot on. also 5 decimal places.
+Only standard 5 chunks used
+
+'#69D2E7',
+'#A7DBD8',
+'#E0E4CC',
+'#F38630',
+'#FA6900',
+#'#69D2E7',
+#'#A7DBD8',
+#'#E0E4CC'
+
+
+http://www.colourlovers.com/palette/1930/cheer_up_emo_kid
+
+better.
+
+
+'#556270',
+'#4ECDC4',
+        '#4ECDC4',
+'#C7F464',
+'#C7F464',
+'#C7F464',
+        '#FF6B6B',
+'#C44D58',
+'#556270',
+
+
+
+
+Really good at 235
+
+
+'#556270',
+'#4ECDC4',
+        '#4ECDC4',
+'#C7F464',
+'#C7F464',
+'#C7F464',
+        '#FF6B6B',
+'#C44D58',
+'#556270',
+
+'#556270',
+'#4ECDC4',
+'#C7F464',
+'#FF6B6B',
+'#C44D58',
+'#556270',
+'#4ECDC4',
+'#C7F464'
+
+
+'#858587',
+'#145782',
+'#B4AB9A',
+'#CDD1D2',
+'#60AED2',
+'#858587',
+'#145782',
+'#B4AB9A'
+
+'#B0B19F',
+'#FFE9B6',
+'#D9995B',
+'#B8171F',
+'#330000',
+'#B0B19F',
+'#FFE9B6',
+'#D9995B'
