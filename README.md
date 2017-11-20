@@ -1,6 +1,6 @@
 GraphTerm
-================================================
-__A Quick and DevOps and Container IDE Concept__
+====================================================
+__An aspirational DevOps and Container IDE Concept__
 
 ![GraphTerm Screencast](https://github.com/millerhooks/GraphTerm/raw/master/docs/images/DockerGraphTerminal.gif)
 
