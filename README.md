@@ -8,8 +8,7 @@ to be turning into an IDE by Miller Hooks
 
 I don't really have time to maintain this, but people might like it.
 It was spawned from a set of lessons on Docker I was trying to write
-but never finished. That can be found here [] in case anyone finds
-it useful.
+but never finished. That maybe I'll post one day if I clean it up.
 
 This was not written to be used in production or as a remote
 administration utility. It was made for video production and as a
