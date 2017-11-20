@@ -2,7 +2,7 @@ GraphTerm
 ====================================================
 __An aspirational DevOps and Container IDE Concept__
 
-![GraphTerm Screencast](https://github.com/millerhooks/GraphTerm/raw/master/docs/images/DockerGraphTerminal.gif)
+![GraphTerm Screencast](https://github.com/millerhooks/GraphTerm/raw/master/docs/images/DockerGraphTerminalScreencast.gif)
 
 A concept for recording videos about docker containers that seems
 to be turning into an IDE by Miller Hooks
