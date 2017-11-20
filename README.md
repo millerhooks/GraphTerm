@@ -1,5 +1,8 @@
-__docmon: A Quick and Dirty Docker Monitor for Demonstration__
+__GraphTerm: A Quick and Dirty Docker Monitor for Demonstration__
 ==============================================================
+
+![GraphTerm Screencast](https://github.com/millerhooks/GraphTerm/raw/master/docs/images/DockerGraphTerminal.gif)
+
 A concept for recording videos about docker containers that seems
 to be turning into an IDE by Miller Hooks
 
