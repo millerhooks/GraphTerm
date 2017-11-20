@@ -11,11 +11,11 @@ It was spawned from a set of lessons on Docker I was trying to write
 but never finished. That maybe I'll post one day if I clean it up.
 
 This was not written to be used in production or as a remote
-administration utility. It was made for video production and as a
-proof of concept I have for a DevOps IDE. If you do anything dumb
-with it. It is still just that, a proof of concept, but people seem
-to like it so I'm sharing it. I know the code is uggo, I would love
-it someone helped clean that up and finished the DevOps IDE and
+administration utility. It was made for educational screencast
+production and as a proof of concept I have for a DevOps IDE. If
+you do anything dumb with it. It is still just that, a proof of concept,
+but people seem to like it so I'm sharing it. I know the code is uggo,
+I would love it someone helped clean that up and finished the DevOps IDE and
 gifted me a Tesla. If wishes were fishes, eh?
 
 
