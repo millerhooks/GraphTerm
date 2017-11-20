@@ -5,7 +5,7 @@ __An aspirational DevOps and Container IDE Concept__
 ![GraphTerm Screencast](https://github.com/millerhooks/GraphTerm/raw/master/docs/images/DockerGraphTerminalScreencast.gif)
 
 A concept for recording videos about docker containers that seems
-to be turning into an IDE by Miller Hooks
+to be turning into an IDE.
 
 I don't really have time to maintain this, but people might like it.
 It was spawned from a set of lessons on Docker I was trying to write
